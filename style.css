@@ -1,0 +1,115 @@
+
+body {
+     background: url('https://i.pinimg.com/564x/cd/bf/80/cdbf808056b5d7844660b528e85e027a.jpg');
+    background-size: cover;
+    color: #3b4058; /* Dark blue */
+    font-family: "Coquette", cursive; /* Coquette font */
+    font-size: 22px;
+}
+
+h1, h2, h3 {
+    font-family: "Coquette", cursive; 
+    color: #f36c9b; 
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: #ff847c; 
+}
+
+a:hover {
+    color: #3b4058; 
+}
+
+.card-white {
+    background: rgba(254, 245, 247, 1.0);
+    border: 1px solid #f36c9b; 
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#hello, #follow {
+    background-color: rgba(254, 245, 247, 1.0); 
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #f36c9b; 
+    border-radius: 20px; 
+}
+
+
+#follow .social-icons {
+    display: flex; 
+    justify-content: space-between; 
+    width: 200px; 
+}
+
+#follow .social-icons a {
+    color: #f36c9b; 
+   font-size: 36px; 
+}
+
+#follow .social-icons a:hover {
+    color: #3b4058; 
+}
+
+.le-wagon-button {
+    background-color: #fff; 
+    color: #f36c9b; 
+    border: 2px solid #f36c9b; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.le-wagon-button:hover {
+    background-color: #f36c9b;     
+    color: #fff; 
+}
+
+.profile-image {
+    max-width: 200px; 
+    border-radius: 50%; 
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
